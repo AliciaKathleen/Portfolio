@@ -8,3 +8,5 @@ resumeBtns.forEach((btn, idx) => {
         btn.classList.add('active')
     });
 });
+
+//teste
