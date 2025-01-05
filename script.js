@@ -1,4 +1,4 @@
-const resumeBtns = document.querySelectorAll('.resume0btn');
+const resumeBtns = document.querySelectorAll('.resume-btn');
 
 resumeBtns.forEach((btn, idx) => {
     btn.addEventListener('click', () => {

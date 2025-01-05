@@ -344,3 +344,8 @@ section.active{
     border-color: #8E44AD;
     color: #8E44AD;
 }
+
+.resume-box .heading{
+    font-size: 3.5rem;
+    text-align: left;
+}
