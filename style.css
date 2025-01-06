@@ -376,6 +376,19 @@ section.active{
     justify-content: center;
 }
 
+.resume-list::-webkit-scrollbar{
+    width: .7rem;
+}
+
+.resume-list::-webkit-scrollbar-thumb{
+    background: transparent;
+    border-radius: 1rem;
+}
+
+.resume-list:hover::-webkit-scrollbar-thumb{
+    background: #8E44AD;
+}
+
 .resume-item .year{
     color: #8E44AD;
 }
