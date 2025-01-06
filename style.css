@@ -434,3 +434,23 @@ section.active{
 .resume-detail.skills .resume-item:hover i{
     color: #8E44AD;
 }
+
+.resume-detail.skills .resume-item span{
+    position: absolute;
+    top: -20%;
+    background: aliceblue;
+    color: #8E44AD;
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(.9);
+    transition: .2s;
+}
+
+.resume-detail.skills .resume-item:hover span{
+    top: -25%;
+    opacity: 1;
+    transform: scale(1);
+}
