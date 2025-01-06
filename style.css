@@ -413,3 +413,24 @@ section.active{
     border-radius: 50%;
     margin-left: -2rem;
 }
+
+.resume-detail.skills .resume-list{
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    height: auto;
+    overflow: visible;
+}
+
+.resume-detail.skills .resume-item{
+    position: relative;
+    align-items: center;
+    height: auto;
+}
+
+.resume-detail.skills .resume-item i{
+    font-size: 8.5rem;
+    transition: .5s;
+}
+
+.resume-detail.skills .resume-item:hover i{
+    color: #8E44AD;
+}
