@@ -345,6 +345,14 @@ section.active{
     color: #8E44AD;
 }
 
+.resume-detail{
+    display: none;
+}
+
+.resume-detail.active{
+    display: block;
+}
+
 .resume-box .heading{
     font-size: 3.5rem;
     text-align: left;
