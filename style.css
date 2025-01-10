@@ -77,6 +77,17 @@ nav a.active{
     width: 100%;
     height: 100%;
     background: grey;
+    animation: hide-bars .5s ease-in-out both;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes hide-bars{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
 }
 
 .bars-box.active .bar{
@@ -105,9 +116,16 @@ section{
 }
 
 section.active{
-    visibility: visible;
-    opacity: 1;
-    overflow: auto;
+   animation: show-content 1.5s linear forwards;
+   animation-delay: 1.6s;
+}
+
+@keyframes show-content{
+    100%{
+        visibility: visible;
+        opacity: 1;
+        overflow: auto;
+    }
 }
 
 .home{
