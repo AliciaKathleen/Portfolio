@@ -31,6 +31,18 @@ header{
     opacity: 0;
 }
 
+header.active{
+    animation: show-header 1.5s linear forwards;
+    animation-delay: 1.2s;
+}
+
+@keyframes show-header{
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
 .logo{
     font-size: 3rem;
     color: aliceblue;
