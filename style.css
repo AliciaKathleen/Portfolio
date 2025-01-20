@@ -1,5 +1,5 @@
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito", serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 }
 
 body{
-    color: antiquewhite;
+    color: #fff;
 }
 
 header{
@@ -22,7 +22,7 @@ header{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: #8E44AD;
+    background: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +58,7 @@ nav a{
 
 nav a:hover,
 nav a.active{
-    color: rgb(70, 21, 70);
+    color: #484747;
 }
 
 #menu-icon{
@@ -76,7 +76,7 @@ nav a.active{
 .bars-box .bar{
     width: 100%;
     height: 100%;
-    background: grey;
+    background: #1B1B1B;
     animation: hide-bars .5s ease-in-out both;
     animation-delay: calc(.1s * var(--i));
 }
@@ -135,12 +135,12 @@ section.active{
 }
 
 .home-detail h1{
-    font-size: clamp(3.5rem, 10vh, 5.5rem);
+    font-size: clamp(7.5rem, 10vh, 2.5rem);
 }
 
 .home-detail h2{
     display: inline-block;
-    font-size: 3.2rem;
+    font-size: 4.2rem;
     margin-top: -1rem;
 }
 
@@ -157,19 +157,19 @@ section.active{
 .btn{
     display: inline-block;
     padding: 1rem 3rem;
-    background: #8E44AD;
-    border: .2rem solid #8E44AD;
+    background: #0E4D64;
+    border: .2rem solid #0E4D64;
     border-radius: 4rem;
-    box-shadow: 0 0 1rem #8E44AD;
-    font-size: 1.6rem;
-    color: aliceblue;
-    font-weight: 500;
+    box-shadow: 0 0 1rem #0E4D64;
+    font-size: 1.9rem;
+    color: #fff;
+    font-weight: 700;
     transition: .5s;
 }
 
 .btn:hover{
     background: transparent;
-    color: #8E44AD;
+    color: #fff;
     box-shadow: none;
 }
 
@@ -180,10 +180,10 @@ section.active{
 .home-detail .btn-sci .sci a{
     display: inline-flex;
     padding: .8rem;
-    border: .2rem solid #8E44AD;
+    border: .2rem solid #0E4D64;
     border-radius: 50%;
-    font-size: 2rem;
-    color: #8E44AD;
+    font-size: 3rem;
+    color: #0E4D64;
     margin: 0 .8rem;
     transition: .5s;
 }
@@ -192,7 +192,7 @@ section.active{
     position: relative;
     display: inline-block;
     color: transparent;
-    -webkit-text-stroke: .07rem #8E44AD;
+    -webkit-text-stroke: .07rem #0E4D64;
     animation: display-text 16s linear infinite;
     animation-delay: calc(-4s * var(--i));
 }
@@ -206,17 +206,17 @@ section.active{
     content: attr(data-text);
     position: absolute;
     width: 0;
-    border-right: .2rem solid #8E44AD;
-    color: #8E44AD;
+    border-right: .2rem solid #0E4D64;
+    color: #0E4D64;
     white-space: nowrap;
     overflow: hidden;
     animation: fill-text 4s linear infinite;
 }
 
 .home-detail .btn-sci .sci a:hover{
-    background: #8E44AD;
-    color: aliceblue;
-    box-shadow: 0 0 1rem #8E44AD;
+    background: #0E4D64;
+    color: #fff;
+    box-shadow: 0 0 1rem #0E4D64;
 }
 
 @keyframes fill-text{
@@ -245,9 +245,9 @@ section.active{
     position: relative;
     width: 100%;
     height: 100%;
-    background: aliceblue;
+    background: #fff;
     border-radius: 50%;
-    border: .01rem solid aliceblue;
+    border: .01rem solid #fff;
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -260,7 +260,7 @@ section.active{
    position: absolute;
    width: 50rem;
    height: 50rem;
-   background: conic-gradient(transparent, transparent, transparent, #8E44AD);
+   background: conic-gradient(transparent, transparent, transparent, #0E4D64);
    transform: rotate(0deg);
    animation: rotate-border 10s linear infinite;
 }
@@ -292,7 +292,7 @@ section.active{
 }
 
 .heading span{
-    color: #8E44AD;
+    color: #0E4D64;
 }
 
 .services-container{
@@ -310,7 +310,7 @@ section.active{
 }
 
 .services-container .services-box:hover{
-    border-color: #8E44AD;
+    border-color: #0E4D64;
     transform: scale(1.06);
 }
 
@@ -326,19 +326,19 @@ section.active{
 }
 
 .services-box:hover .icon :not(a i){
-    color: #8E44AD;
+    color: #0E4D64;
 }
 
 .services-box .icon a{
     display: inline-flex;
-    background: aliceblue;
+    background: #0E4D64;
     border-radius: 50%;
     padding: 1rem;
     transition: .5s;
 }
 
 .services-box:hover .icon a{
-    background: #8E44AD;
+    background: #0E4D64;
 }
 
 .services-box .icon a i{
@@ -359,7 +359,7 @@ section.active{
 }
 
 .services-box:hover h3{
-    color: #8E44AD;
+    color: #0E4D64;
 }
 
 
@@ -400,8 +400,8 @@ section.active{
 }
 
 .resume-box .resume-btn.active{
-    border-color: #8E44AD;
-    color: #8E44AD;
+    border-color: #0E4D64;
+    color: #0E4D64;
 }
 
 .resume-detail{
@@ -445,11 +445,11 @@ section.active{
 }
 
 .resume-list:hover::-webkit-scrollbar-thumb{
-    background: #8E44AD;
+    background: #0E4D64;
 }
 
 .resume-item .year{
-    color: #8E44AD;
+    color: #0E4D64;
 }
 
 .resume-item h3{
@@ -468,7 +468,7 @@ section.active{
     top: 50%;
     transform: translateY(-50%);
     padding: .5rem;
-    background: #8E44AD;
+    background: #0E4D64;
     border-radius: 50%;
     margin-left: -2rem;
 }
@@ -491,14 +491,14 @@ section.active{
 }
 
 .resume-detail.skills .resume-item:hover i{
-    color: #8E44AD;
+    color: #0E4D64;
 }
 
 .resume-detail.skills .resume-item span{
     position: absolute;
     top: -20%;
     background: aliceblue;
-    color: #8E44AD;
+    color: #0E4D64;
     font-size: 1.6rem;
     padding: .5rem 1rem;
     border-radius: .6rem;
@@ -526,7 +526,7 @@ section.active{
 }
 
 .resume-detail.about .resume-item p{
-    color: #8E44AD;
+    color: #0E4D64;
 }
 
 .resume-detail.about .resume-item p span{
@@ -568,7 +568,7 @@ section.active{
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0, .1), #8E44AD);
+    background: linear-gradient(rgba(0,0,0, .1), #0E4D64);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -638,7 +638,7 @@ section.active{
 .contact-detail i{
     display: inline-flex;
     background: grey;
-    color: #8E44AD;
+    color: #0E4D64;
     font-size: 3rem;
     padding: 1.2rem;
     border-radius: .6rem;
@@ -646,7 +646,7 @@ section.active{
 }
 
 .contact-detail .detail p:first-child{
-    color: #8E44AD;
+    color: #0E4D64;
 }
 
 @media screen and (max-width: 1200px){
