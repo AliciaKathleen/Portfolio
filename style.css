@@ -261,7 +261,7 @@ section.active{
    position: absolute;
    width: 50rem;
    height: 50rem;
-   background: conic-gradient(transparent, transparent, transparent, #0E4D64);
+   background: conic-gradient(transparent, transparent, transparent, #6C3483);
    transform: rotate(0deg);
    animation: rotate-border 10s linear infinite;
 }
@@ -293,7 +293,7 @@ section.active{
 }
 
 .heading span{
-    color: #0E4D64;
+    color: #8E44AD;
 }
 
 .services-container{
@@ -311,7 +311,7 @@ section.active{
 }
 
 .services-container .services-box:hover{
-    border-color: #0E4D64;
+    border-color: #8E44AD;
     transform: scale(1.06);
 }
 
@@ -327,19 +327,19 @@ section.active{
 }
 
 .services-box:hover .icon :not(a i){
-    color: #0E4D64;
+    color: #8E44AD;
 }
 
 .services-box .icon a{
     display: inline-flex;
-    background: #0E4D64;
+    background: #8E44AD;
     border-radius: 50%;
     padding: 1rem;
     transition: .5s;
 }
 
 .services-box:hover .icon a{
-    background: #0E4D64;
+    background: #8E44AD;
 }
 
 .services-box .icon a i{
