@@ -59,7 +59,7 @@ nav a{
 
 nav a:hover,
 nav a.active{
-    color: #0E4D64;
+    color: #8E44AD;
 }
 
 #menu-icon{
@@ -141,12 +141,12 @@ section.active{
 
 .home-detail h2{
     display: inline-block;
-    font-size: 4.2rem;
+    font-size: 4rem;
     margin-top: -1rem;
 }
 
 .home-detail p{
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 1rem 0 2.5rem;
 }
 
@@ -158,10 +158,10 @@ section.active{
 .btn{
     display: inline-block;
     padding: 1rem 3rem;
-    background: #0E4D64;
-    border: .2rem solid #0E4D64;
+    background: #6C3483;
+    border: .2rem solid #6C3483;
     border-radius: 4rem;
-    box-shadow: 0 0 1rem #0E4D64;
+    box-shadow: 0 0 1rem #6C3483;
     font-size: 1.9rem;
     color: #fff;
     font-weight: 700;
@@ -181,10 +181,10 @@ section.active{
 .home-detail .btn-sci .sci a{
     display: inline-flex;
     padding: .8rem;
-    border: .2rem solid #0E4D64;
+    border: .2rem solid #6C3483;
     border-radius: 50%;
     font-size: 3rem;
-    color: #0E4D64;
+    color: #6C3483;
     margin: 0 .8rem;
     transition: .5s;
 }
@@ -193,7 +193,7 @@ section.active{
     position: relative;
     display: inline-block;
     color: transparent;
-    -webkit-text-stroke: .07rem #0E4D64;
+    -webkit-text-stroke: .07rem #6C3483;
     animation: display-text 16s linear infinite;
     animation-delay: calc(-4s * var(--i));
 }
@@ -207,17 +207,17 @@ section.active{
     content: attr(data-text);
     position: absolute;
     width: 0;
-    border-right: .2rem solid #0E4D64;
-    color: #0E4D64;
+    border-right: .2rem solid #6C3483;
+    color: #6C3483;
     white-space: nowrap;
     overflow: hidden;
     animation: fill-text 4s linear infinite;
 }
 
 .home-detail .btn-sci .sci a:hover{
-    background: #0E4D64;
+    background: #6C3483;
     color: #fff;
-    box-shadow: 0 0 1rem #0E4D64;
+    box-shadow: 0 0 1rem #6C3483;
 }
 
 @keyframes fill-text{
