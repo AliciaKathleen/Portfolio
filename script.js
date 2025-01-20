@@ -79,4 +79,3 @@ resumeBtns.forEach((btn, idx) => {
 });
 
 
-
