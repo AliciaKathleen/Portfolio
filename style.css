@@ -32,6 +32,7 @@ header{
     opacity: 0;
 }
 
+
 header.active{
     animation: show-header 1.5s linear forwards;
     animation-delay: 1.2s;
@@ -51,10 +52,10 @@ header.active{
 }
 
 nav a{
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     color: aliceblue;
     font-weight: 500;
-    margin-left: 3.5rem;
+    margin-left: 7rem;
 }
 
 nav a:hover,
@@ -77,7 +78,7 @@ nav a.active{
 .bars-box .bar{
     width: 100%;
     height: 100%;
-    background: #1B1B1B;
+    background: #262626;
     animation: hide-bars .5s ease-in-out both;
     animation-delay: calc(.1s * var(--i));
 }
@@ -162,7 +163,7 @@ section.active{
     border: .2rem solid #6C3483;
     border-radius: 4rem;
     box-shadow: 0 0 1rem #6C3483;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     color: #fff;
     font-weight: 700;
     transition: .5s;
@@ -228,46 +229,23 @@ section.active{
         width: 100%;
     }
 }
-
-
-.home-img .img-box{
-    position: relative;
-    width: 32vw;
-    height: 32vw;
-    border-radius: 50%;
-    padding: .5rem;
+.home-img .img-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
-.home-img .img-box .img-tem{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    border-radius: 50%;
-    border: .01rem solid #fff;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
-    overflow: hidden;
+.home-img .img-item {
+    width: 40rem;  
+    height: 40rem; 
+    border-radius: 50%; 
+    overflow: hidden;  
 }
 
-.home-img .img-box::before,
-.home-img .img-box::after{
-   content: ''; 
-   position: absolute;
-   width: 50rem;
-   height: 50rem;
-   background: conic-gradient(transparent, transparent, transparent, #6C3483);
-   transform: rotate(0deg);
-   animation: rotate-border 10s linear infinite;
-}
-
-.home-img .img-box::after{
-    animation-delay: -5s;
+.home-img .img-item img {
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover; 
 }
 
 @keyframes rotate-border{
@@ -275,7 +253,6 @@ section.active{
         transform: rotate(360deg);
     }
 }
-
 
 .home-img .img-box .img-tem img{
     position: absolute;
@@ -327,7 +304,7 @@ section.active{
 }
 
 .services-box:hover .icon :not(a i){
-    color: #8E44AD;
+    color: white;
 }
 
 .services-box .icon a{
@@ -360,7 +337,7 @@ section.active{
 }
 
 .services-box:hover h3{
-    color: #9B59B6;
+    color: white;
 }
 
 
@@ -380,29 +357,35 @@ section.active{
 }
 
 .resume-box p{
-    font-size: 2rem;
+    font-size: 1.9rem;
+    margin: 0;
+    padding: 0;
 }
 
 .resume-box .desc {
-    margin: 2rem 0 2.5rem;
+    padding-bottom: 10px;
+    padding: 0;
 }
+
 
 .resume-box .resume-btn{
     width: 100%;
     height: 5.3rem;
     background: grey;
     border: .2rem solid rgb(66, 65, 65);
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: aliceblue;
     font-weight: 500;
     margin-bottom: 2rem;
     border-radius: .8rem;
     cursor: pointer;
+    position: relative;
+    top: 5rem;
 }
 
 .resume-box .resume-btn.active{
     border-color: #8E44AD;
-    color: #8E44AD;
+    color: white;
 }
 
 .resume-detail{
@@ -488,18 +471,21 @@ section.active{
 }
 
 .resume-detail.skills .resume-item i{
+    display: inline-block;
     font-size: 8.5rem;
     transition: .5s;
 }
 
 .resume-detail.skills .resume-item:hover i{
     color: #8E44AD;
+    transform: scale(1.2); 
+
 }
 
 .resume-detail.skills .resume-item span{
     position: absolute;
     top: -20%;
-    background: white;
+    background: aliceblue;
     color: #8E44AD;
     font-size: 1.6rem;
     padding: .5rem 1rem;
@@ -570,7 +556,7 @@ section.active{
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0, .1), #0E4D64);
+    background: linear-gradient(rgba(0,0,0, .1), #8E44AD);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -640,7 +626,7 @@ section.active{
 .contact-detail i{
     display: inline-flex;
     background: grey;
-    color: #0E4D64;
+    color: #8E44AD;
     font-size: 3rem;
     padding: 1.2rem;
     border-radius: .6rem;
